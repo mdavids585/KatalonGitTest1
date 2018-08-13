@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+OrangeHRM,,,2018-08-13 16:22:56,2018-08-13 16:23:21,25.053s,FAILED
+,,,,,,
+Test Cases/OrangeHRM/Search,,,2018-08-13 16:22:57,2018-08-13 16:23:18,21.618s,FAILED
+openBrowser,,,2018-08-13 16:22:57,2018-08-13 16:23:18,21.162s,FAILED
+,,,,,,
+Test Cases/OrangeHRM/ValidLogin,,,2018-08-13 16:23:18,2018-08-13 16:23:21,2.723s,FAILED
+openBrowser,,,2018-08-13 16:23:19,2018-08-13 16:23:21,2.569s,FAILED

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="OrangeHRM" time="25" tests="0" failures="2" errors="0">
+   <testsuite name="OrangeHRM" tests="0" failures="2" errors="0" time="25" timestamp="2018-08-13 16:22:56" hostname="matthew.davids - Miles.newmedialabs.local" id="Test Suites/OrangeHRM">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\matthew.davids\\git\\KatalonGitTest1\\Reports\\OrangeHRM\\20180813_162254"/>
+         <property name="logFiles" value="C:\\Users\\matthew.davids\\git\\KatalonGitTest1\\Reports\\OrangeHRM\\20180813_162254\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="matthew.davids - Miles.newmedialabs.local"/>
+         <property name="hostAddress" value="192.168.10.144"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+      </properties>
+      <testcase name="Test Cases/OrangeHRM/Search" classname="Test Cases/OrangeHRM/Search" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MILES', ip: '192.168.10.144', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-08-13 16:22:57 - [TEST_CASE][FAILED] - Test Cases/OrangeHRM/Search: Test Cases/OrangeHRM/Search FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MILES', ip: '192.168.10.144', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-08-13 16:22:57 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MILES', ip: '192.168.10.144', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-08-13 16:23:18 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MILES', ip: '192.168.10.144', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-08-13 16:22:57 - [TEST_CASE][FAILED] - Test Cases/OrangeHRM/Search: Test Cases/OrangeHRM/Search FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MILES', ip: '192.168.10.144', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OrangeHRM/ValidLogin" classname="Test Cases/OrangeHRM/ValidLogin" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:20272 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MILES', ip: '192.168.10.144', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CEdgeDriver)"/>
+         <system-out><![CDATA[2018-08-13 16:23:18 - [TEST_CASE][FAILED] - Test Cases/OrangeHRM/ValidLogin: Test Cases/OrangeHRM/ValidLogin FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:20272 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MILES', ip: '192.168.10.144', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CEdgeDriver)
+
+2018-08-13 16:23:19 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:20272 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MILES', ip: '192.168.10.144', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CEdgeDriver)
+
+2018-08-13 16:23:21 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:20272 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MILES', ip: '192.168.10.144', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CEdgeDriver)]]></system-out>
+         <system-err><![CDATA[2018-08-13 16:23:18 - [TEST_CASE][FAILED] - Test Cases/OrangeHRM/ValidLogin: Test Cases/OrangeHRM/ValidLogin FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:20272 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MILES', ip: '192.168.10.144', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CEdgeDriver)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-13 16:22:56 - [TEST_SUITE][FAILED] - OrangeHRM: Test Cases/OrangeHRM/Search FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MILES', ip: '192.168.10.144', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2018-08-13 16:22:56 - [TEST_SUITE][FAILED] - OrangeHRM: Test Cases/OrangeHRM/Search FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MILES', ip: '192.168.10.144', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>
